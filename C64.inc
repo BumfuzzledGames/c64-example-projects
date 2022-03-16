@@ -1,3 +1,4 @@
+// Kernal
 .const KERNAL_SCINIT=$ff81
 .const KERNAL_IOINIT=$ff84
 .const KERNAL_RAMTAS=$ff87
@@ -37,3 +38,21 @@
 .const KERNAL_SCREEN=$ffed
 .const KERNAL_PLOT  =$fff0
 .const KERNAL_IOBASE=$fff3
+
+.const SCREEN_000=$0000
+.const SCREEN_016=$0400
+.const SCREEN_032=$0800
+.const SCREEN_048=$0C00
+.const SCREEN_064=$1000
+.const SCREEN_080=$1400
+.const SCREEN_096=$1800
+.const SCREEN_112=$1C00
+.const SCREEN_128=$2000
+.const SCREEN_144=$2400
+.const SCREEN_160=$2800
+.const SCREEN_176=$2C00
+.const SCREEN_192=$3000
+.const SCREEN_208=$3400
+.const SCREEN_224=$3800
+.const SCREEN_240=$3C00
+.const SCREEN_DEFAULT=SCREEN_016
