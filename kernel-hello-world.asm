@@ -1,6 +1,6 @@
 // Print hello world using the kernal
 BasicUpstart2(Start)
-#import "../C64.inc"
+#import "C64.inc"
 
 str_hello:
    .text "HELLO, WORLD!"

@@ -1,4 +1,4 @@
-// display hello world on the screen
+// Display hello world on the screen
 BasicUpstart2(Start)
 
 .encoding "screencode_upper"
