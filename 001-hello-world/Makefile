@@ -1,0 +1,8 @@
+include ../config.mak
+
+001-hello-world.prg: 001-hello-world.asm
+	$(ASM) $(ASM_FLAGS) -o $@ $<
+
+.phony: run
+run: 001-hello-world.prg
+	$(EMU) 001-hello-world.prg
